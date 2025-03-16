@@ -4,7 +4,7 @@ np.float = np.float64  # Fix NumPy deprecation
 import torch
 import supervision as sv
 from ultralytics import YOLO
-from tracker.byte_tracker import BYTETracker
+from yolox.tracker.byte_tracker import BYTETracker
 from collections import defaultdict
 
 # Load YOLO model

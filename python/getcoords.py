@@ -6,7 +6,7 @@ def get_points(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
         print(f"Point: ({x}, {y})")
 
-cap = cv2.VideoCapture("Sample2.mp4")
+cap = cv2.VideoCapture("SampleVideos/Sample1q.mp4")
 cv2.namedWindow("Frame")
 cv2.setMouseCallback("Frame", get_points)
 
